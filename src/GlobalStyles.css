@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+*, button, input, span {
+  border: 0;
+  outline: 0;
+
+  text-shadow: #000 0px 0px 0px;
+
+  font-family: 'Roboto Condensed', sans-serif;
+}
