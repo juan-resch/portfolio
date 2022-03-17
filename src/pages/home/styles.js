@@ -2,17 +2,14 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   display: flex;
-  flex: 1;
-  height: 100vh;
-  width: 100vw;
   flex-direction: column;
 `
 
 export const Header = styled.div`
   display: flex;
-  flex: 1;
-  width: 100%;
-  height: 10%;
+  width: 100vw;
+  height: 70px;
+  position: fixed;
   background-color: #000;
 
   align-items: center;
@@ -29,20 +26,20 @@ export const MyName = styled.span`
 
 export const Content = styled.div`
   display: flex;
-  flex: 8;
   flex-direction: column;
 
-  width: auto;
-  height: 100%;
-
   overflow-y: scroll;
-  background-color: #111;
 
   align-items: center;
   justify-content: center;
 
+  margin-top: 70px;
+  padding-top: 15px;
+  padding-bottom: 20px;
+
   ::-webkit-scrollbar {
     display: none;
+    width: 0px;
   }
 
 `;
@@ -102,4 +99,27 @@ export const Skill = styled.div`
 
     margin: 5px 0px;
   }
+`
+
+export const Button = styled.a`
+  color: #333;
+  font-weight: bold;
+  width: 160px;
+  height: 40px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 8px;
+  background-color: #fff;
+  cursor: pointer;
+  padding: 0 5px 0 20px;
+
+  :hover {
+    width: 150px;
+    height: 45px;
+    transform: translate(0, -3px);
+  }
+
+  transition: ease 500ms;
 `

@@ -4,8 +4,17 @@
   box-sizing: border-box;
 }
 
+
+
 html, body, #root {
   height: 100%;
+  background-color: #111;
+  scrollbar-width: 0px;
+  font-size: 10px;
+}
+
+body::-webkit-scrollbar, #root::-webkit-scrollbar {
+  display: none;
 }
 
 *, button, input, span {
@@ -13,6 +22,6 @@ html, body, #root {
   outline: 0;
 
   text-shadow: #000 0px 0px 0px;
-
+  font-size: 1.6rem;
   font-family: 'Roboto Condensed', sans-serif;
 }
