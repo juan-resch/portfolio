@@ -1,13 +1,27 @@
 import React from 'react';
-import { Container, Content } from '../home/styles';
-
+import Header from '../../components/header';
+import { Container, Content, Project } from './styles';
 
 export const Projects = props => {
+  console.log(props)
   return (
     <Container>
-
+      <Header />
       <Content>
+        <ul>
+          <Project>
+            <h1>U-Pick</h1>
+          </Project>
+          <Project>
+            <h1>Allsmart</h1>
+          </Project>
+          <Project>
 
+          </Project>
+          <Project>
+
+          </Project>
+        </ul>
       </Content>
     </Container>
   );

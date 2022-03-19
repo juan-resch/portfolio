@@ -6,7 +6,6 @@ import { SiPostgresql } from 'react-icons/si'
 import { ImGit } from 'react-icons/im'
 import { BsArrowRightShort } from 'react-icons/bs'
 
-import './styles.css';
 import pp from '../../assets/pp.jpg'
 
 export const Home = props => {
@@ -48,7 +47,7 @@ export const Home = props => {
             <span>Git</span>
           </Skill>
         </Skills>
-        <Button>
+        <Button href='/projects'>
           View projects
           <BsArrowRightShort color='#444' size={30} />
         </Button>

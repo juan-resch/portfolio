@@ -37,6 +37,42 @@ export const Content = styled.div`
   padding-top: 15px;
   padding-bottom: 20px;
 
+  > .info {
+    color: #fff;
+    font-weight: bold;
+    margin: 10px 0 0 0;
+    font-size: 2rem;
+
+    @media (min-width: 1440px) {
+      font-size: 2.8rem;
+    }
+  }
+
+  > .info2 {
+    color: #fff;
+    margin: 5px 0px;
+    text-align: center;
+    max-width: 70vw;
+    font-size: 1.8rem;
+
+    @media (min-width: 1440px) {
+      font-size: 2.8rem;
+    }
+  }
+
+  > .skills {
+    color: #fff;
+    font-weight: 100;
+    letter-spacing: 3px;
+    font-style: italic;
+    margin: 40px 0px;
+    font-size: 2rem;
+
+    @media (min-width: 1440px) {
+      font-size: 2.8rem;
+    }
+  }
+
   ::-webkit-scrollbar {
     display: none;
     width: 0px;
@@ -91,6 +127,8 @@ export const Skill = styled.div`
   justify-content: center;
   align-items: center;
   margin: 5px 10px;
+
+  
 
   span {
     color: #fff;
